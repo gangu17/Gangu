@@ -7,15 +7,15 @@ Resources:
  MylambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: Testdemo
       Timeout: 900
+      FunctionName: Testdemo
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: ./index.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
-  MylambdaFunctiontwo:
+ MylambdaFunctiontwo:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: Testdemotwo
