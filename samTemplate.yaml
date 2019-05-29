@@ -7,7 +7,7 @@ Resources:
  MylambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: gang
+      FunctionName: Testdemo
       Timeout: 900
       MemorySize: 3008
       Handler: index.handler
