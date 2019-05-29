@@ -15,3 +15,14 @@ Resources:
       CodeUri: ./index.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
+  MylambdaFunctiontwo:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: Testdemotwo
+      Timeout: 900
+      MemorySize: 3008
+      Handler: index.handler
+      Runtime: nodejs8.10
+      CodeUri: ./index.zip
+      Policies: AWSLambdaFullAccess
+      Role: arn:aws:iam::641553134660:role/service-role/demo1
