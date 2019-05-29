@@ -8,7 +8,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Timeout: 900
-      FunctionName: Testdemo
+      FunctionName: Testdemo1
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
@@ -18,7 +18,7 @@ Resources:
  MylambdaFunctiontwo:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: Testdemotwo
+      FunctionName: Testdemotwo1
       Timeout: 900
       MemorySize: 3008
       Handler: index.handler
@@ -29,7 +29,7 @@ Resources:
  MylambdaFunctionthree:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: Testdemothree
+      FunctionName: Testdemothree1
       Timeout: 900
       MemorySize: 3008
       Handler: index.handler
