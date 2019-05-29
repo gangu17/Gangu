@@ -12,7 +12,7 @@ Resources:
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./index.zip
+      CodeUri: ./index1.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
  MylambdaFunctiontwo:
@@ -23,7 +23,7 @@ Resources:
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./index.zip
+      CodeUri: ./index1.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
  MylambdaFunctionthree:
@@ -34,6 +34,6 @@ Resources:
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./index.zip
+      CodeUri: ./index1.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
