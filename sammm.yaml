@@ -7,24 +7,24 @@ Resources:
  MylambdaFunctionone:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: gang1
+      FunctionName: gang10
       Timeout: 900
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./index.zip
+      CodeUri: ./index1.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
 
  MylambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: gang2
+      FunctionName: gang11
       Timeout: 900
       MemorySize: 3008
       Handler: index.handler
       Runtime: nodejs8.10
-      CodeUri: ./index.zip
+      CodeUri: ./index1.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::641553134660:role/service-role/demo1
 
